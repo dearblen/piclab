@@ -1,0 +1,477 @@
+body {
+    left: 0px;
+    top: 0px;
+    width: 1280px;
+    height: 720px;
+    background: url('../image/bg_720.png') no-repeat;
+    overflow: hidden;
+}
+
+.title_content {
+    position: absolute;
+    width: 880px;
+    height: 70px;
+    top: 2px;
+    left: 100px;
+    color: #f5efef;
+}
+
+.title {
+    position: absolute;
+    width: 880px;
+    height: 45px;
+    font-size: 35px;
+    color: #f5efef;
+    text-align: center;
+}
+
+.principal {
+    position: absolute;
+    width: 880px;
+    height: 20px;
+    top: 47px;
+    font-size: 20px;
+    text-align: right;
+}
+
+.table_content {
+    position: absolute;
+    width: 850px;
+    height: 650px;
+    top: 75px;
+    left: 0px;
+}
+
+ul,
+li {
+    list-style: none;
+
+}
+
+ul {
+    position: relative;
+    left: -35px;
+    display: flex;
+}
+
+li {
+    flex: 1;
+    height: 60px;
+    margin-right: 20px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.button {
+    background-color: #4CAF50;
+    width: 85px;
+    height: 34px;
+    border: none;
+    color: white;
+    text-align: center;
+    line-height: 31px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.official_button
+.button:hover {
+    background-color: rgb(236, 170, 233);
+    color: white;
+}
+
+.test_button .button:hover {
+    background-color: rgb(106, 168, 219);
+    color: white;
+}
+
+input {
+    display: none;
+}
+
+/* 设置input的下一个节点label的样式 */
+input+label {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    opacity: 0.4;
+    font-size: 18px;
+    text-align: center;
+    line-height: 60px;
+    color: #333;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition-duration: 400ms;
+}
+
+/* 设置div内容的基础样式 隐藏内容div*/
+input+label+div {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 60px;
+}
+
+/* input选中状态时候对应的label的样式 */
+input:checked+label {
+    background: #ffffff;
+    opacity: 0.8;
+    color: black;
+}
+
+/* input选中时候显示对应的div */
+input:checked+label+div {
+    display: block;
+}
+
+.content_ceil {
+    position: relative;
+    width: 550px;
+    /* left: 36px; */
+    height: 100px;
+    margin-top: 20px;
+}
+
+.cms_title {
+    position: absolute;
+    left: 0px;
+    width: 80px;
+    top: 20px;
+    font-size: 30px;
+    color: black;
+}
+
+.URL_content {
+    position: absolute;
+    left: 80px;
+    /* width: 550px; */
+    height: 50px;
+    font-size: 30px;
+    color: cornsilk;
+}
+
+.active_content {
+    top: 60px;
+    width: 1200px;
+    height: 550px;
+    left: 40px;
+    background: #ffffff;
+    opacity: 0.8;
+    overflow-y: scroll;
+}
+
+.station_ceil {
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 90px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+/* logo */
+.logo {
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    width: 55px;
+    height: 55px;
+    background-size: 100% 100% !important;
+}
+
+.system_logo {
+    top: 10px;
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    width: 45px;
+    height: 45px;
+    background-size: 100% 100% !important;
+}
+
+.blueD_logo {
+    background: url('../image/BuleD.png') no-repeat;
+}
+
+.education_logo {
+    background: url('../image/education.png') no-repeat;
+}
+
+.newEast_logo {
+    background: url('../image/NewDongFang.png') no-repeat;
+}
+
+.music_logo {
+    background: url('../image/melody.png') no-repeat;
+}
+
+.eastcity_logo {
+    background: url('../image/eastcity.png') no-repeat;
+}
+
+.children_logo {
+    background: url('../image/children.png') no-repeat;
+}
+
+.cms_logo {
+    background: url('../image/cms.png') no-repeat;
+}
+
+.kibana_logo {
+    background: url('../image/kibana.png') no-repeat;
+}
+
+.BI_logo {
+    background: url('../image/Bi.png') no-repeat;
+}
+
+.oms_logo {
+    background: url('../image/oms.png') no-repeat;
+}
+
+.ams_logo {
+    background: url('../image/ams.png') no-repeat;
+}
+
+.official_button {
+    position: absolute;
+    left: 70px;
+    width: 100px;
+    height: 50px;
+}
+
+.test_button {
+    position: absolute;
+    left: 70px;
+    top: 39px;
+    width: 120px;
+    height: 46px;
+}
+
+.gray {
+    filter: grayscale(100%);
+}
+
+.description {
+    position: absolute;
+    width: 55px;
+    line-height: 23px;
+    left: 6px;
+    top: 57px;
+    height: 30px;
+    font-size: 13px;
+    color: black;
+    text-align: center;
+}
+
+.font_size {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.active_content_ceil {
+    position: absolute;
+    left: 122px;
+}
+
+/* 地名 */
+
+.toponymy {
+    position: absolute;
+    left: 0px;
+    width: 90px;
+    height: 130px;
+    line-height: 76px;
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+}
+
+.list_content {
+    position: relative;
+    top: 41px;
+    width: 930px;
+    height: 230px;
+    margin-bottom: 20px;
+    left: 20px;
+}
+
+.list_ceil {
+    position: absolute;
+    left: 90px;
+    width: 870px;
+    height: 100%;
+}
+
+.height {
+    height: 230px;
+}
+
+.standard_font {
+    height: 70px;
+    line-height: 50px;
+}
+
+.standard {
+    height: 70px;
+}
+
+.standard_top {
+    height: 70px;
+    top: 20px;
+}
+
+.standard_position {
+    top: 6px;
+    left: 70px;
+}
+
+.standard_logo {
+    height: 60px;
+    width: 60px;
+}
+
+.old {
+    width: 110px;
+}
+
+.old_position {
+    left: 70px;
+}
+
+.old_lineHeight {
+    line-height: 60px;
+}
+
+.old_list_ceil {
+    left: 160px;
+}
+
+.hainan_buttom {
+    /* width: 180px; */
+}
+
+.top {
+    top: 5px;
+    left: 60px;
+}
+
+.center_height {
+    height: 130px;
+}
+
+.operation {
+    width: 170px;
+}
+
+#nav {
+    position: fixed;
+    margin-top: 0;
+    width: 1185px;
+    height: 40px;
+    background: #6c9183;
+    z-index: 20;
+}
+.operator {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    top: 10px;
+    left: 36px;
+    line-height: 20px;
+    width: 100px;
+}
+.operator_CMCC {
+    position: absolute;
+    width: 128px;
+    left: 170px;
+    line-height: 37px;
+    font-size: 20px;
+    text-align: center;
+}
+.operator_CUCC {
+    position: absolute;
+    width: 128px;
+    left: 370px;
+    line-height: 37px;
+    font-size: 20px;
+    text-align: center;
+}
+.operator_CTCC {
+    position: absolute;
+    width: 128px;
+    left: 578px;
+    line-height: 37px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.operator_GD {
+    position: absolute;
+    width: 128px;
+    left: 788px;
+    line-height: 37px;
+    font-size: 20px;
+    text-align: center;
+}
+.operator_system{
+    position: absolute;
+    width: 128px;
+    left: 990px;
+    line-height: 37px;
+    font-size: 20px;
+    text-align: center;  
+}
+    
+.height390 {
+    height: 390px;
+}
+
+.height130 {
+    height: 130px;
+}
+
+.operatior_system {
+    height: 100px;
+}
+.system_content{
+    position: absolute;
+    width: 230px;
+    height: 100%;
+    left: 930px;
+    top: 0px;
+}
+.operatior_system_logo{
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 40px;
+    height: 40px;
+    background-size: 100% 100% !important;
+}
+.system_button {
+    position: absolute;
+    left: 46px;
+    width: 150px;
+    height: 50px;
+}
+.system_button_width{
+    line-height: 35px;
+    width: 150px;
+    height: 39px;
+}
+.system_content_ceil {
+    position: relative;
+    width: 200px;
+    height: 45px;
+    left: 10px;
+    top: 5px;
+    margin-top: 5px;
+}
