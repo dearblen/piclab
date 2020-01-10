@@ -25,7 +25,7 @@ def send_email(email, code):
 
     from django.core.mail import EmailMultiAlternatives
 
-    subject = '来自www.liujiangblog.com的注册确认邮件'
+    subject = '来自www.dearbron.top的注册确认邮件'
 
     text_content = '''欢迎注册piclab\
                     如果你看到这条消息，说明你的邮箱服务器不提供HTML链接功能，请联系管理员！'''
